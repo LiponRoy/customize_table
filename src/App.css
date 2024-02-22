@@ -115,3 +115,19 @@
 	padding-right: 150px;
 }
 
+@media screen and (max-width: 600px) {
+  .Container {
+    flex-direction: column;
+  }
+  .column {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    padding-left: 25px;
+  }
+
+  .Dropdown {
+    right: 80px;
+
+  }
+ 
+}
