@@ -6,7 +6,7 @@ const Topbar = ({ toggle, setToggle }) => {
     <div>
       <div className="topBar">
         {/* topbar left side text  */}
-        <span>Left side</span>
+        <span className="tableTitle">Table Title</span>
         <div className="imageAndmenu">
           {/* svg icon for  Hamburger menu   */}
           <img
