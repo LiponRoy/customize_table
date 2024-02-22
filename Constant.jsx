@@ -1,5 +1,5 @@
-import Button from './components/Button';
-
+import Button from '././src/components/Button';
+// for Title column data
 export const Column1 = [
 	{
 		title: 'Title',
@@ -10,17 +10,18 @@ export const Column1 = [
 		],
 	},
 ];
+// for Date column data
 export const Column2 = [
 	{
 		title: 'Date',
 		elements: [
-			{ title: 'Feb 04 2024 ' },
-			{ title: 'Jan 31 2024' },
+			{ title: '04-2-2024' },
+			{ title: '31-2-2024' },
 			
 		],
 	},
 ];
-
+// for Author column data
 export const Column3 = [
 	{
 		title: 'Author',
@@ -31,7 +32,7 @@ export const Column3 = [
 		],
 	},
 ];
-
+// for Status column data
 export const Column4 = [
 	{
 		title: 'Status',
@@ -42,6 +43,7 @@ export const Column4 = [
 		],
 	},
 ];
+// for Action column data
 export const Column5 = [
 	{
 		title: 'Action',

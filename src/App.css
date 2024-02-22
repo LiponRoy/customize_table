@@ -31,7 +31,7 @@
   top: 32px;
   margin: 0 auto;
   width: 100px;
-  height: 200px;
+  
 }
 
 /* for sidebar menu */
@@ -66,3 +66,52 @@
 .sidebarHide {
 	display: none;
 }
+.statusButton {
+	border: 2px solid rgb(114, 114, 114);
+	width: 140px;
+	height: 40px;
+	padding: 8px;
+	border-radius: 8px;
+	background-color: rgb(226, 226, 226);
+	cursor: pointer;
+}
+
+/* For Main Table */
+
+.Container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.column {
+	text-align: start;
+
+	background-color: rgb(235, 235, 235);
+}
+
+.topHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+	margin: 10px;
+}
+.columnHeading {
+	font-size: 20px;
+	font-weight: 700;
+	border-bottom: 2px solid rgb(56, 55, 55);
+  color: rgb(44, 44, 105);
+	padding: 16px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.elements {
+	padding: 16px;
+	font-size: 20px;
+	font-weight: 600;
+	border-bottom: 1px solid rgb(102, 102, 102);
+	padding-left: 6px;
+	padding-right: 150px;
+}
+

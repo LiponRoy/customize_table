@@ -1,4 +1,4 @@
-
+// import React from 'react'
 const Sidebar = ({
 	setColumn1,
 	setColumn2,

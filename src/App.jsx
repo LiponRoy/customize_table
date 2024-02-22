@@ -14,6 +14,16 @@ const [column3, setColumn3] = useState(false);
 const [column4, setColumn4] = useState(false);
 const [column5, setColumn5] = useState(false);
 
+console.log(column1)
+console.log(column2)
+console.log(column3)
+
+const set1=(e)=>{
+  setColumn1(e.target.checked)
+}
+
+
+
   return (
     <>
     {/* passing toggle,setToggle as a props for controlling it from topbar component */}
@@ -21,9 +31,13 @@ const [column5, setColumn5] = useState(false);
 					setColumn2={setColumn2}
 					setColumn3={setColumn3}
 					setColumn4={setColumn4}
-					setColumn5={setColumn5} />
+					setColumn5={setColumn5} set1={set1} />
     {/* passing setToggle as a props for controlling it from MainTable component */}
-      <MainTable setToggle={setToggle}/>
+      <MainTable setToggle={setToggle} column1={column1}
+					column2={column2}
+					column3={column3}
+					column4={column4}
+					column5={column5} />
 
       
     </>
