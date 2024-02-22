@@ -27,5 +27,37 @@
   margin: 0 auto;
   width: 100px;
   height: 200px;
-  background-color: rgb(185, 185, 185);
+}
+
+/* for sidebar menu */
+.checkboxArea {
+  padding: 12px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 1px solid rgb(167, 167, 167);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.checkbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  margin-top: 12px;
+}
+
+.sidebarShow {
+	display: block;
+}
+.sidebarHide {
+	display: none;
 }

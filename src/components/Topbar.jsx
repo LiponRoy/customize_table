@@ -1,4 +1,5 @@
 import ReactLogo from "../assets/align-justify.svg";
+import Sidebar from "./Sidebar";
 
 const Topbar = ({ toggle, setToggle }) => {
   return (
@@ -17,7 +18,13 @@ const Topbar = ({ toggle, setToggle }) => {
             alt="React Logo"
           />
           {/* if toggle is true then Dropdown menu will show  */}
-          {toggle && <div className="Dropdown"></div>}
+          {toggle && <div className="Dropdown">
+            <Sidebar setColumn1
+					setColumn2
+					setColumn3
+					setColumn4
+					setColumn5 toggle/>
+            </div>}
         </div>
       </div>
     </div>
