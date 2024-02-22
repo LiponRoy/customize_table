@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import { useState } from 'react';
 import './App.css'
+import Topbar from './components/Topbar';
+import MainTable from './components/MainTable';
 
 function App() {
-  // const [count, setCount] = useState(0)
+  // This useState for showing and hide checkboxes menu
+const[toggle,setToggle]=useState(false)
 
   return (
     <>
-      <span>Project Start</span>
+    {/* passing toggle,setToggle as a props for controlling it from topbar component */}
+      <Topbar toggle={toggle} setToggle={setToggle} />
+    {/* passing setToggle as a props for controlling it from MainTable component */}
+      <MainTable setToggle={setToggle}/>
+
+      
     </>
   )
 }
